@@ -23,6 +23,7 @@ services:
 
   db:
     image: mysql:8
+    
     container_name: db
     restart: always
     env_file:
